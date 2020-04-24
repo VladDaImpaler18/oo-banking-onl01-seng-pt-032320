@@ -11,7 +11,7 @@ class Transfer
   end
 
   def valid?
-   @sender.valid? && @receiver.valid?
+   @sender.valid? && @sender. && @receiver.valid?
  end
 
   def execute_transaction
